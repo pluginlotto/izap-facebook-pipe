@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Izap facebook pipe</name>
+	<author>Izap developers</author>
+	<version>1</version>
+	<category>izap</category>
+	<blurb>facebook pipe</blurb>
+	<description>For facebook comment and like.</description>
+	<website>http://pluginlotto.org/</website>
+	<copyright>See COPYRIGHT.txt</copyright>
+	<license>GNU General Public License version 2</license>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+  <screenshot>
+    <description>Activity page</description>
+    <path>screenshots/activity page.png</path>
+  </screenshot>
+  <screenshot>
+    <description>Izap facebook pipe admin section</description>
+    <path>screenshots/izap-facebook-pipe-admin-section.png</path>
+  </screenshot>
+  <screenshot>
+    <description>Izap facebook pipe with izap video detail page</description>
+    <path>screenshots/izap-facebook-pipe-with-izap-video-detail-page.png</path>
+  </screenshot>
+	<activate_on_install>false</activate_on_install>
+</plugin_manifest>
