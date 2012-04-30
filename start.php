@@ -19,7 +19,10 @@
 define('GLOBAL_IZAP_FACEBOOK_PIPE_PLUGIN', 'izap-facebook-pipe');
 
 // Hook the pluugin with the system
-elgg_register_event_handler('init', 'system', 'izap_fb_pipe_init');
+
+if (elgg_is_active_plugin('izap-elgg-bridge')) {
+  elgg_register_event_handler('init', 'system', 'izap_fb_pipe_init');
+}
 
 /**
  * main init function, that will be hooked
