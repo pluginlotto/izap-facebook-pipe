@@ -74,9 +74,10 @@
       )),
     ));
     ?>
-  </p><br/>
+  </p>
+
+  <?php } ?>
 </fieldset>
-<?php } ?>
 <fieldset class="izap_admin_fieldset">
   <legend><?php echo elgg_echo('izap_seo:index:izap:facebook_pipe_like_settings') ?></legend>
 
@@ -158,8 +159,8 @@
       )),
     ));
     ?><br/><br/>
-    <?php echo elgg_echo('izap_seo:index:izap:facebook_settings_clear_cash');?>
+   
   </p>
   <?php } ?>
-  
+   <p style="margin: 8px"> <?php echo elgg_echo('izap_seo:index:izap:facebook_settings_clear_cash');?> </p>
 </fieldset>
